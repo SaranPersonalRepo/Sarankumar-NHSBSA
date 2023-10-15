@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="36" failures="2" name="com.nhs.framework.runner.TestRunner" time="70.966" errors="0" skipped="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @Positive_England"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Eclipse NHS Workspace\NHS_CheckerTool_Project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Eclipse NHS Workspace\NHS_CheckerTool_Project"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\91770\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Users\91770\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_281\bin;D:\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;."/>
+    <property name="maven.conf" value="D:\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\91770"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="91770"/>
+    <property name="java.class.path" value="D:\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=src/main/resources/NHSFeatureFiles/NHS_CircumtanceChecker.feature -Dcucumber.options=--tags @Positive_England"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user navigate to NHS application" time="4.749"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user click &quot;Start Now&quot; button in NHS_Start Page" time="2.235"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user click &quot;England&quot; RadioButton in NHS_WhereYouLive Page" time="2.907"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user click &quot;Yes&quot; RadioButton in NHS_GPPractice Page" time="2.201"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user click &quot;England&quot; RadioButton in NHS_DentalPracticeCountry Page" time="2.789"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user enter &quot;11-09-1989&quot; textBox in NHS_DOB Page" time="2.552"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user click &quot;No&quot; RadioButton in NHS_Partner Page" time="2.745"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user click &quot;Yes&quot; RadioButton in NHS_ClaimBenfitsTaxCredits Page" time="2.229"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user click &quot;No, we get a different benefit&quot; RadioButton in NHS_UniversalCredit Page" time="2.892"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user click &quot;Tax Credits;Income Support&quot; RadioButton in NHS_Benefits Page" time="2.206"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="user verify result Page" time="0.063"/>
+  <testcase classname="Verify NHS Cost Applicable for England #1" name="Verify NHS Cost Applicable for England #1" time="1.249"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user navigate to NHS application" time="3.068"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user click &quot;Start Now&quot; button in NHS_Start Page" time="2.338"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user click &quot;England&quot; RadioButton in NHS_WhereYouLive Page" time="2.364"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user click &quot;Yes&quot; RadioButton in NHS_GPPractice Page" time="2.312"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user click &quot;England&quot; RadioButton in NHS_DentalPracticeCountry Page" time="2.322"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user enter &quot;12-10-1979&quot; textBox in NHS_DOB Page" time="2.217"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user click &quot;Yes&quot; RadioButton in NHS_Partner Page" time="2.34"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user click &quot;Yes&quot; RadioButton in NHS_ClaimBenfitsTaxCredits Page" time="2.168"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user click &quot;No, I get a different benefit&quot; RadioButton in NHS_UniversalCredit Page" time="2.206"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user click &quot;Income Support&quot; RadioButton in NHS_Benefits Page" time="2.911"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="user verify result Page" time="0.095"/>
+  <testcase classname="Verify NHS Cost Applicable for England #2" name="Verify NHS Cost Applicable for England #2" time="1.323"/>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user navigate to NHS application" time="3.374"/>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user click &quot;Start Now&quot; button in NHS_Start Page" time="2.228"/>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user click &quot;Wales&quot; RadioButton in NHS_WhereYouLive Page" time="2.801"/>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user click &quot;Yes&quot; RadioButton in NHS_GPPractice Page" time="2.257"/>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user click &quot;England&quot; RadioButton in NHS_DentalPracticeCountry Page" time="2.964"/>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user enter &quot;11-09-1600&quot; textBox in NHS_DOB Page" time="1.671">
+    <failure message="NHS_DOB page has following error message Check the year you were born is correct" type="java.lang.AssertionError">java.lang.AssertionError: NHS_DOB page has following error message Check the year you were born is correct
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.nhs.framework.PageObjects.NHS_PageLevelError.verifyErrorsInPage(NHS_PageLevelError.java:41)
+	at com.nhs.framework.stepDefinitions.StepImplementation.userActionOnPage(StepImplementation.java:90)
+	at ✽.user enter &quot;11-09-1600&quot; textBox in NHS_DOB Page(classpath:NHSFeatureFiles/NHS_CircumtanceChecker.feature:30)
+</failure>
+    <system-out>2023-10-15 17:15:55 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:15:55 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:15:55 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:15:56 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:56 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check the year you were born is correct
+2023-10-15 17:15:56 [INFO ] [NHS_PageLevelError] - [verifyErrorsInPage] NHS_DOB page has following error message Check the year you were born is correct
+</system-out>
+  </testcase>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user click &quot;No&quot; RadioButton in NHS_Partner Page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user click &quot;Yes&quot; RadioButton in NHS_ClaimBenfitsTaxCredits Page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user click &quot;No, we get a different benefit&quot; RadioButton in NHS_UniversalCredit Page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user click &quot;Tax Credits;Income Support&quot; RadioButton in NHS_Benefits Page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="user verify result Page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify NHS Cost Applicable for Wales" name="Verify NHS Cost Applicable for Wales" time="1.19">
+    <failure message="NHS_DOB page has following error message Check the year you were born is correct" type="java.lang.AssertionError">java.lang.AssertionError: NHS_DOB page has following error message Check the year you were born is correct
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.nhs.framework.PageObjects.NHS_PageLevelError.verifyErrorsInPage(NHS_PageLevelError.java:41)
+	at com.nhs.framework.stepDefinitions.StepImplementation.userActionOnPage(StepImplementation.java:90)
+	at ✽.user enter &quot;11-09-1600&quot; textBox in NHS_DOB Page(classpath:NHSFeatureFiles/NHS_CircumtanceChecker.feature:30)
+</failure>
+    <system-out>2023-10-15 17:15:56 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:15:57 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:15:57 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for Wales failed inbetween with status FAILED
+</system-out>
+  </testcase>
+</testsuite>

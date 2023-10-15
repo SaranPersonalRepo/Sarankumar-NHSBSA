@@ -1,0 +1,554 @@
+2023-10-15 16:22:03 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 16:22:04 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 16:22:05 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 16:22:05 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 16:22:05 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 16:22:06 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:06 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 16:22:06 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 16:22:06 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is England
+2023-10-15 16:22:07 [INFO ] [NHS_WhereYouLive] - [selectCountry] England selected successfully.
+2023-10-15 16:22:07 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:09 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:09 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 16:22:09 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 16:22:09 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 16:22:10 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:11 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:11 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 16:22:11 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 16:22:11 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 16:22:11 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 16:22:12 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:13 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:13 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 16:22:13 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 16:22:13 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 16:22:14 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:15 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:15 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you live with a partner?
+2023-10-15 16:22:16 [INFO ] [NHS_Partner] - [verifyPartnerPage] Partner page verified successfully
+2023-10-15 16:22:16 [INFO ] [NHS_Partner] - [selectResponse] Successfully clicked on No button
+2023-10-15 16:22:17 [INFO ] [NHS_Partner] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:18 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:18 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you claim any benefits or tax credits?
+2023-10-15 16:22:18 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [verifyClaimBenfitsTaxCreditsPage] ClaimBenfitsTaxCredits page verified successfully
+2023-10-15 16:22:18 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 16:22:19 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:20 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:20 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you get paid Universal Credit?
+2023-10-15 16:22:20 [INFO ] [NHS_UniversalCredit] - [verifyUniversalCreditPage] Universal Credit page verified successfully
+2023-10-15 16:22:21 [INFO ] [NHS_UniversalCredit] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:22 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:22 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you get any of these benefits?
+2023-10-15 16:22:22 [INFO ] [NHS_Benefits] - [verifyBenefitsPage] Benefits page verified successfully
+2023-10-15 16:22:23 [INFO ] [NHS_Benefits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:24 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:24 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Based on what you've told us
+2023-10-15 16:22:24 [INFO ] [NHS_Result] - [verifyResultPage] Result page verified successfully
+2023-10-15 16:22:24 [INFO ] [StepImplementation] - [verifyResult] TestCase passed successfully.
+2023-10-15 16:22:24 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 16:22:25 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 16:22:25 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for England executed successfully with status PASSED
+2023-10-15 16:22:27 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 16:22:29 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 16:22:29 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 16:22:29 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 16:22:30 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 16:22:31 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:31 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 16:22:31 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 16:22:31 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is England
+2023-10-15 16:22:31 [INFO ] [NHS_WhereYouLive] - [selectCountry] England selected successfully.
+2023-10-15 16:22:32 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:33 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:33 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 16:22:33 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 16:22:33 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 16:22:34 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:36 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:36 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 16:22:36 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 16:22:36 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 16:22:36 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 16:22:36 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:38 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:38 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 16:22:38 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 16:22:38 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 16:22:39 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:40 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:40 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you live with a partner?
+2023-10-15 16:22:40 [INFO ] [NHS_Partner] - [verifyPartnerPage] Partner page verified successfully
+2023-10-15 16:22:40 [INFO ] [NHS_Partner] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 16:22:41 [INFO ] [NHS_Partner] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:42 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:42 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner claim any benefits or tax credits?
+2023-10-15 16:22:42 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [verifyClaimBenfitsTaxCreditsPage] ClaimBenfitsTaxCredits page verified successfully
+2023-10-15 16:22:43 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 16:22:43 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:44 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:45 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner get paid Universal Credit?
+2023-10-15 16:22:45 [INFO ] [NHS_UniversalCredit] - [verifyUniversalCreditPage] Universal Credit page verified successfully
+2023-10-15 16:22:46 [INFO ] [NHS_UniversalCredit] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:47 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:47 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner get any of these benefits?
+2023-10-15 16:22:47 [INFO ] [NHS_Benefits] - [verifyBenefitsPage] Benefits page verified successfully
+2023-10-15 16:22:48 [INFO ] [NHS_Benefits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 16:22:49 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 16:22:49 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Based on what you've told us
+2023-10-15 16:22:49 [INFO ] [NHS_Result] - [verifyResultPage] Result page verified successfully
+2023-10-15 16:22:49 [INFO ] [StepImplementation] - [verifyResult] TestCase passed successfully.
+2023-10-15 16:22:49 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 16:22:49 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 16:22:49 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for England executed successfully with status PASSED
+2023-10-15 17:02:03 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:02:06 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:02:06 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:02:06 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:02:07 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:02:08 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:02:08 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:02:08 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:02:08 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is England
+2023-10-15 17:02:08 [INFO ] [NHS_WhereYouLive] - [selectCountry] England selected successfully.
+2023-10-15 17:04:11 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:04:12 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:04:12 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:04:12 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:04:13 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:04:14 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:14 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:04:14 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:04:14 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is England
+2023-10-15 17:04:14 [INFO ] [NHS_WhereYouLive] - [selectCountry] England selected successfully.
+2023-10-15 17:04:15 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:16 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:16 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:04:16 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:04:16 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:04:17 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:19 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:19 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:04:19 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:04:19 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:04:19 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:04:20 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:21 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:21 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:04:21 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:04:22 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:04:23 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:24 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:24 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you live with a partner?
+2023-10-15 17:04:24 [INFO ] [NHS_Partner] - [verifyPartnerPage] Partner page verified successfully
+2023-10-15 17:04:24 [INFO ] [NHS_Partner] - [selectResponse] Successfully clicked on No button
+2023-10-15 17:04:24 [INFO ] [NHS_Partner] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:25 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:25 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you claim any benefits or tax credits?
+2023-10-15 17:04:26 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [verifyClaimBenfitsTaxCreditsPage] ClaimBenfitsTaxCredits page verified successfully
+2023-10-15 17:04:26 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:04:26 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:28 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:28 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you get paid Universal Credit?
+2023-10-15 17:04:28 [INFO ] [NHS_UniversalCredit] - [verifyUniversalCreditPage] Universal Credit page verified successfully
+2023-10-15 17:04:29 [INFO ] [NHS_UniversalCredit] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:30 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:30 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you get any of these benefits?
+2023-10-15 17:04:30 [INFO ] [NHS_Benefits] - [verifyBenefitsPage] Benefits page verified successfully
+2023-10-15 17:04:31 [INFO ] [NHS_Benefits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:32 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:32 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Based on what you've told us
+2023-10-15 17:04:32 [INFO ] [NHS_Result] - [verifyResultPage] Result page verified successfully
+2023-10-15 17:04:32 [INFO ] [StepImplementation] - [verifyResult] TestCase passed successfully.
+2023-10-15 17:04:32 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:04:32 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:04:32 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for England executed successfully with status PASSED
+2023-10-15 17:04:35 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:04:36 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:04:36 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:04:36 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:04:37 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:04:38 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:38 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:04:38 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:04:38 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is England
+2023-10-15 17:04:39 [INFO ] [NHS_WhereYouLive] - [selectCountry] England selected successfully.
+2023-10-15 17:04:39 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:40 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:41 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:04:41 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:04:41 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:04:41 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:43 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:43 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:04:43 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:04:43 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:04:43 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:04:44 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:45 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:45 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:04:45 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:04:45 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:04:46 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:47 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:47 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you live with a partner?
+2023-10-15 17:04:47 [INFO ] [NHS_Partner] - [verifyPartnerPage] Partner page verified successfully
+2023-10-15 17:04:48 [INFO ] [NHS_Partner] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:04:48 [INFO ] [NHS_Partner] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:49 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:50 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner claim any benefits or tax credits?
+2023-10-15 17:04:50 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [verifyClaimBenfitsTaxCreditsPage] ClaimBenfitsTaxCredits page verified successfully
+2023-10-15 17:04:50 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:04:51 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:53 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:53 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner get paid Universal Credit?
+2023-10-15 17:04:53 [INFO ] [NHS_UniversalCredit] - [verifyUniversalCreditPage] Universal Credit page verified successfully
+2023-10-15 17:04:54 [INFO ] [NHS_UniversalCredit] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:55 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:55 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner get any of these benefits?
+2023-10-15 17:04:55 [INFO ] [NHS_Benefits] - [verifyBenefitsPage] Benefits page verified successfully
+2023-10-15 17:04:55 [INFO ] [NHS_Benefits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:04:57 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:04:57 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Based on what you've told us
+2023-10-15 17:04:57 [INFO ] [NHS_Result] - [verifyResultPage] Result page verified successfully
+2023-10-15 17:04:57 [INFO ] [StepImplementation] - [verifyResult] TestCase passed successfully.
+2023-10-15 17:04:57 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:04:57 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:04:57 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for England executed successfully with status PASSED
+2023-10-15 17:06:56 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:06:58 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:06:58 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:06:58 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:06:59 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:07:00 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:00 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:07:00 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:07:00 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is England
+2023-10-15 17:07:00 [INFO ] [NHS_WhereYouLive] - [selectCountry] England selected successfully.
+2023-10-15 17:07:02 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:03 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:03 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:07:03 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:07:03 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:07:03 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:05 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:05 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:07:05 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:07:05 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:07:05 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:07:06 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:07 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:07 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:07:07 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:07:08 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:07:08 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:10 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:10 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you live with a partner?
+2023-10-15 17:07:10 [INFO ] [NHS_Partner] - [verifyPartnerPage] Partner page verified successfully
+2023-10-15 17:07:10 [INFO ] [NHS_Partner] - [selectResponse] Successfully clicked on No button
+2023-10-15 17:07:11 [INFO ] [NHS_Partner] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:12 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:12 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you claim any benefits or tax credits?
+2023-10-15 17:07:12 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [verifyClaimBenfitsTaxCreditsPage] ClaimBenfitsTaxCredits page verified successfully
+2023-10-15 17:07:12 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:07:13 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:14 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:14 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you get paid Universal Credit?
+2023-10-15 17:07:14 [INFO ] [NHS_UniversalCredit] - [verifyUniversalCreditPage] Universal Credit page verified successfully
+2023-10-15 17:07:15 [INFO ] [NHS_UniversalCredit] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:16 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:16 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you get any of these benefits?
+2023-10-15 17:07:16 [INFO ] [NHS_Benefits] - [verifyBenefitsPage] Benefits page verified successfully
+2023-10-15 17:07:18 [INFO ] [NHS_Benefits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:19 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:19 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Based on what you've told us
+2023-10-15 17:07:19 [INFO ] [NHS_Result] - [verifyResultPage] Result page verified successfully
+2023-10-15 17:07:19 [INFO ] [StepImplementation] - [verifyResult] TestCase passed successfully.
+2023-10-15 17:07:19 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:07:19 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:07:19 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for England executed successfully with status PASSED
+2023-10-15 17:07:22 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:07:23 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:07:23 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:07:23 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:07:24 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:07:25 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:25 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:07:25 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:07:25 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is England
+2023-10-15 17:07:26 [INFO ] [NHS_WhereYouLive] - [selectCountry] England selected successfully.
+2023-10-15 17:07:26 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:28 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:28 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:07:28 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:07:28 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:07:28 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:30 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:30 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:07:30 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:07:30 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:07:30 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:07:31 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:32 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:32 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:07:32 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:07:32 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:07:33 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:34 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:34 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you live with a partner?
+2023-10-15 17:07:34 [INFO ] [NHS_Partner] - [verifyPartnerPage] Partner page verified successfully
+2023-10-15 17:07:35 [INFO ] [NHS_Partner] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:07:35 [INFO ] [NHS_Partner] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:37 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:37 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner claim any benefits or tax credits?
+2023-10-15 17:07:37 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [verifyClaimBenfitsTaxCreditsPage] ClaimBenfitsTaxCredits page verified successfully
+2023-10-15 17:07:37 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:07:38 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:39 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:39 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner get paid Universal Credit?
+2023-10-15 17:07:40 [INFO ] [NHS_UniversalCredit] - [verifyUniversalCreditPage] Universal Credit page verified successfully
+2023-10-15 17:07:40 [INFO ] [NHS_UniversalCredit] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:42 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:42 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner get any of these benefits?
+2023-10-15 17:07:42 [INFO ] [NHS_Benefits] - [verifyBenefitsPage] Benefits page verified successfully
+2023-10-15 17:07:43 [INFO ] [NHS_Benefits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:07:44 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:07:44 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Based on what you've told us
+2023-10-15 17:07:44 [INFO ] [NHS_Result] - [verifyResultPage] Result page verified successfully
+2023-10-15 17:07:44 [INFO ] [StepImplementation] - [verifyResult] TestCase passed successfully.
+2023-10-15 17:07:44 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:07:44 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:07:44 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for England executed successfully with status PASSED
+2023-10-15 17:09:07 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:09:08 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:09:09 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:09:09 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:09:10 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:09:11 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:09:11 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:09:11 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:09:11 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is Wales
+2023-10-15 17:09:11 [INFO ] [NHS_WhereYouLive] - [selectCountry] Wales selected successfully.
+2023-10-15 17:09:13 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:09:14 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:09:14 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:09:14 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:09:14 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:09:15 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:09:16 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:09:16 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:09:16 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:09:16 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:09:16 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:09:17 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:09:18 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:09:18 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:09:18 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:09:18 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:09:19 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:09:20 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check the year you were born is correct
+2023-10-15 17:09:20 [INFO ] [NHS_PageLevelError] - [verifyErrorsInPage] NHS_DOB page has following error message Check the year you were born is correct
+2023-10-15 17:09:20 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:09:20 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:09:20 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for Wales failed inbetween with status FAILED
+2023-10-15 17:09:34 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:09:35 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:09:35 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:09:35 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:09:36 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:09:37 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:09:38 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:09:38 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:09:38 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is Wales
+2023-10-15 17:09:38 [INFO ] [NHS_WhereYouLive] - [selectCountry] Wales selected successfully.
+2023-10-15 17:09:39 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:09:40 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:09:40 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:09:40 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:09:40 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:09:41 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:09:42 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:09:43 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:09:43 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:09:43 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:09:43 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:09:43 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:09:45 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:09:45 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:09:45 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:09:45 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:09:46 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:09:46 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check the year you were born is correct
+2023-10-15 17:09:46 [INFO ] [NHS_PageLevelError] - [verifyErrorsInPage] NHS_DOB page has following error message Check the year you were born is correct
+2023-10-15 17:09:46 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:09:47 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:09:47 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for Wales failed inbetween with status FAILED
+2023-10-15 17:14:02 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:14:04 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:14:04 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:14:04 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:14:04 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:14:06 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:14:06 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:14:06 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:14:06 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is Wales
+2023-10-15 17:14:06 [INFO ] [NHS_WhereYouLive] - [selectCountry] Wales selected successfully.
+2023-10-15 17:14:07 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:14:08 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:14:08 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:14:08 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:14:08 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:14:09 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:14:10 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:14:10 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:14:10 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:14:10 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:14:10 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:14:11 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:14:12 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:14:12 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:14:12 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:14:12 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:14:14 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:14:14 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check the year you were born is correct
+2023-10-15 17:14:14 [INFO ] [NHS_PageLevelError] - [verifyErrorsInPage] NHS_DOB page has following error message Check the year you were born is correct
+2023-10-15 17:14:14 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:14:14 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:14:14 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for Wales failed inbetween with status FAILED
+2023-10-15 17:14:50 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:14:51 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:14:51 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:14:52 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:14:52 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:14:53 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:14:54 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:14:54 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:14:54 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is England
+2023-10-15 17:14:54 [INFO ] [NHS_WhereYouLive] - [selectCountry] England selected successfully.
+2023-10-15 17:14:55 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:14:56 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:14:57 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:14:57 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:14:57 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:14:57 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:14:59 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:14:59 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:14:59 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:14:59 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:14:59 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:15:00 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:01 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:01 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:15:02 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:15:02 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:15:02 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:04 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:04 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you live with a partner?
+2023-10-15 17:15:04 [INFO ] [NHS_Partner] - [verifyPartnerPage] Partner page verified successfully
+2023-10-15 17:15:04 [INFO ] [NHS_Partner] - [selectResponse] Successfully clicked on No button
+2023-10-15 17:15:06 [INFO ] [NHS_Partner] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:07 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:07 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you claim any benefits or tax credits?
+2023-10-15 17:15:07 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [verifyClaimBenfitsTaxCreditsPage] ClaimBenfitsTaxCredits page verified successfully
+2023-10-15 17:15:07 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:15:08 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:09 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:09 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you get paid Universal Credit?
+2023-10-15 17:15:09 [INFO ] [NHS_UniversalCredit] - [verifyUniversalCreditPage] Universal Credit page verified successfully
+2023-10-15 17:15:11 [INFO ] [NHS_UniversalCredit] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:12 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:12 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you get any of these benefits?
+2023-10-15 17:15:12 [INFO ] [NHS_Benefits] - [verifyBenefitsPage] Benefits page verified successfully
+2023-10-15 17:15:13 [INFO ] [NHS_Benefits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:14 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:14 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Based on what you've told us
+2023-10-15 17:15:14 [INFO ] [NHS_Result] - [verifyResultPage] Result page verified successfully
+2023-10-15 17:15:14 [INFO ] [StepImplementation] - [verifyResult] TestCase passed successfully.
+2023-10-15 17:15:14 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:15:14 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:15:14 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for England executed successfully with status PASSED
+2023-10-15 17:15:17 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:15:18 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:15:18 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:15:19 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:15:20 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:15:21 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:21 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:15:21 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:15:21 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is England
+2023-10-15 17:15:21 [INFO ] [NHS_WhereYouLive] - [selectCountry] England selected successfully.
+2023-10-15 17:15:22 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:23 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:23 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:15:23 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:15:23 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:15:24 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:25 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:25 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:15:26 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:15:26 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:15:26 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:15:27 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:28 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:28 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:15:28 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:15:28 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:15:29 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:30 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:30 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you live with a partner?
+2023-10-15 17:15:30 [INFO ] [NHS_Partner] - [verifyPartnerPage] Partner page verified successfully
+2023-10-15 17:15:30 [INFO ] [NHS_Partner] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:15:31 [INFO ] [NHS_Partner] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:32 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:32 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner claim any benefits or tax credits?
+2023-10-15 17:15:32 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [verifyClaimBenfitsTaxCreditsPage] ClaimBenfitsTaxCredits page verified successfully
+2023-10-15 17:15:32 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:15:33 [INFO ] [NHS_ClaimBenfitsTaxCredits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:34 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:35 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner get paid Universal Credit?
+2023-10-15 17:15:35 [INFO ] [NHS_UniversalCredit] - [verifyUniversalCreditPage] Universal Credit page verified successfully
+2023-10-15 17:15:35 [INFO ] [NHS_UniversalCredit] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:37 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:37 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Do you or your partner get any of these benefits?
+2023-10-15 17:15:37 [INFO ] [NHS_Benefits] - [verifyBenefitsPage] Benefits page verified successfully
+2023-10-15 17:15:38 [INFO ] [NHS_Benefits] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:40 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:40 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Based on what you've told us
+2023-10-15 17:15:40 [INFO ] [NHS_Result] - [verifyResultPage] Result page verified successfully
+2023-10-15 17:15:40 [INFO ] [StepImplementation] - [verifyResult] TestCase passed successfully.
+2023-10-15 17:15:40 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:15:40 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:15:40 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for England executed successfully with status PASSED
+2023-10-15 17:15:43 [INFO ] [BaseClass] - [setUpDriver] Browser Launched Successfully
+2023-10-15 17:15:44 [INFO ] [StepImplementation] - [userNavigateToApplication] Navigated to application https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+2023-10-15 17:15:44 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check what help you could get to pay for NHS costs
+2023-10-15 17:15:44 [INFO ] [NHS_Start] - [verifyStartPage] NHS Start page verified successfully
+2023-10-15 17:15:45 [INFO ] [NHS_Start] - [clickStartNowButton] Successfully clicked on startNowButton
+2023-10-15 17:15:46 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:47 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country do you live in?
+2023-10-15 17:15:47 [INFO ] [NHS_WhereYouLive] - [verifyWhereYouLivePage] Where do you live page verified successfully
+2023-10-15 17:15:47 [INFO ] [NHS_WhereYouLive] - [selectCountry] Given country is Wales
+2023-10-15 17:15:47 [INFO ] [NHS_WhereYouLive] - [selectCountry] Wales selected successfully.
+2023-10-15 17:15:48 [INFO ] [NHS_WhereYouLive] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:49 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:49 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Is your GP practice in Scotland or Wales?
+2023-10-15 17:15:49 [INFO ] [NHS_GPPractice] - [verifyGPPracticePage] GP Practice page verified successfully
+2023-10-15 17:15:50 [INFO ] [NHS_GPPractice] - [selectResponse] Successfully clicked on Yes button
+2023-10-15 17:15:50 [INFO ] [NHS_GPPractice] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:52 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:52 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Which country is your dental practice in?
+2023-10-15 17:15:52 [INFO ] [NHS_DentalPracticeCountry] - [verifyDentalPracticePage] dentalPractice page verified successfully
+2023-10-15 17:15:52 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] Given country is England
+2023-10-15 17:15:52 [INFO ] [NHS_DentalPracticeCountry] - [selectCountry] England selected successfully.
+2023-10-15 17:15:53 [INFO ] [NHS_DentalPracticeCountry] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:54 [INFO ] [CommonActions] - [isDisplayed] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: error-summary-heading' (tried for 1 second(s) with 500 MILLISECONDS interval)
+2023-10-15 17:15:55 [INFO ] [CommonActions] - [waitForElementVisibility] element found...What is your date of birth?
+2023-10-15 17:15:55 [INFO ] [NHS_DOB] - [verifyDOBPage] Date Of Birth page verified successfully
+2023-10-15 17:15:55 [INFO ] [NHS_DOB] - [enterDOB] Date Of Birth value entered successfully
+2023-10-15 17:15:56 [INFO ] [NHS_DOB] - [clicknextButton] Successfully clicked on next button
+2023-10-15 17:15:56 [INFO ] [CommonActions] - [waitForElementVisibility] element found...Check the year you were born is correct
+2023-10-15 17:15:56 [INFO ] [NHS_PageLevelError] - [verifyErrorsInPage] NHS_DOB page has following error message Check the year you were born is correct
+2023-10-15 17:15:56 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:15:57 [INFO ] [CommonActions] - [takeScreenShotAndAttachInReport] Screenshot Captured..
+2023-10-15 17:15:57 [INFO ] [StepImplementation] - [tearDown] Scenario Verify NHS Cost Applicable for Wales failed inbetween with status FAILED

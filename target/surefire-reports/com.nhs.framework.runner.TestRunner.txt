@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.nhs.framework.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 72.101 sec <<< FAILURE!
+user enter "11-09-1600" textBox in NHS_DOB Page(Verify NHS Cost Applicable for Wales)  Time elapsed: 1.671 sec  <<< FAILURE!
+java.lang.AssertionError: NHS_DOB page has following error message Check the year you were born is correct
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.nhs.framework.PageObjects.NHS_PageLevelError.verifyErrorsInPage(NHS_PageLevelError.java:41)
+	at com.nhs.framework.stepDefinitions.StepImplementation.userActionOnPage(StepImplementation.java:90)
+	at ?.user enter "11-09-1600" textBox in NHS_DOB Page(classpath:NHSFeatureFiles/NHS_CircumtanceChecker.feature:30)
+
+Verify NHS Cost Applicable for Wales  Time elapsed: 1.19 sec  <<< FAILURE!
+java.lang.AssertionError: NHS_DOB page has following error message Check the year you were born is correct
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.nhs.framework.PageObjects.NHS_PageLevelError.verifyErrorsInPage(NHS_PageLevelError.java:41)
+	at com.nhs.framework.stepDefinitions.StepImplementation.userActionOnPage(StepImplementation.java:90)
+	at ?.user enter "11-09-1600" textBox in NHS_DOB Page(classpath:NHSFeatureFiles/NHS_CircumtanceChecker.feature:30)
+

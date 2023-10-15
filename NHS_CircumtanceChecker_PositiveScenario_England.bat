@@ -1,0 +1,1 @@
+mvn test -Dcucumber.options="src/main/resources/NHSFeatureFiles/NHS_CircumtanceChecker.feature" -Dcucumber.options="--tags @Positive_England"
